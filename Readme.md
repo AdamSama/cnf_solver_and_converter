@@ -26,18 +26,12 @@ The resulting CNF are in the form of </br>
     B A</br>
 </br>
 The CNF solver using the Davis-Putnam algorithm to solve the following resulting CNF clauses</br>
-To run the program, type
+To run the program, commands are
 ```sh
 make solver
-java Solver xxxx.txt
-java Solver xxxx.txt
-```
-where xxxx.txt is the name of the input file.
-To use the converter (the input file is BNF), type
-```sh
+java Solver input.txt
 java Solver xxxx.txt -converter
-```
-To clean the whole program, type 
-```sh
 make clean
 ```
+where xxxx.txt is the name of the input file.
+And -converter is the optional flag to use the cnf converter(the input file is BNF).
