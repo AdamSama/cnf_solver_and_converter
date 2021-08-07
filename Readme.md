@@ -28,7 +28,7 @@ The resulting CNF are in the form of </br>
 The CNF solver using the Davis-Putnam algorithm to solve the following resulting CNF clauses</br>
 xxxx.txt is the name of the input file.
 And -converter is the optional flag to use the cnf converter(the input file is BNF).
-To run the program, commands are
+To run the program, commands are </br>
 ```bash
 make solver
 java Solver input.txt
