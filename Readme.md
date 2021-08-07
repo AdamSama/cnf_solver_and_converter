@@ -27,17 +27,17 @@ The resulting CNF are in the form of </br>
 </br>
 The CNF solver using the Davis-Putnam algorithm to solve the following resulting CNF clauses</br>
 To run the program, type
-```bash
+```sh
 make solver
 java Solver xxxx.txt
 java Solver xxxx.txt
 ```
 where xxxx.txt is the name of the input file.
 To use the converter (the input file is BNF), type
-```bash
+```sh
 java Solver xxxx.txt -converter
 ```
 To clean the whole program, type 
-```bash
+```sh
 make clean
 ```
