@@ -11,6 +11,7 @@ This would be converted to CNF. The converter algorithm adapts from https://gith
 * Replace "implies" by "and", "or", "not"</br>
 * Doing de morgan</br>
 * Doing distributive</br>
+</br>
 The resulting CNF are in the form of </br>
     !A !P Q W</br>
     !B !C !P Q W</br>
