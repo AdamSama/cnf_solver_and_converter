@@ -27,7 +27,7 @@ The resulting CNF are in the form of </br>
 </br>
 The CNF solver using the Davis-Putnam algorithm to solve the following resulting CNF clauses</br>
 To run the program, commands are
-```sh
+```bash
 make solver
 java Solver input.txt
 java Solver xxxx.txt -converter
